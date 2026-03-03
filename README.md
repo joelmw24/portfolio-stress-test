@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue}" /> <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
 
-Quantitative finance project focused on **portfolio risk analysis and
+Finance project focused on **portfolio risk analysis and
 stress testing** using historical market data.
 
 This project evaluates how a portfolio behaves under normal market
@@ -14,10 +14,10 @@ conditions and during extreme crisis periods.
 
 ## Project objectives
 
--   Construct and clean financial time series data\
--   Compute portfolio returns\
--   Measure key risk metrics\
--   Perform historical stress testing\
+-   Construct and clean financial time series data
+-   Compute portfolio returns
+-   Measure key risk metrics
+-   Perform historical stress testing
 -   Analyze portfolio performance during crisis windows
 
 ------------------------------------------------------------------------
