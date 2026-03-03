@@ -1,14 +1,18 @@
-# 📊 Portfolio Stress Test
+# Stress testing & risk validation on multi-asset portfolios
+
+<img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue}" /> <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
 
 Quantitative finance project focused on **portfolio risk analysis and
 stress testing** using historical market data.
 
 This project evaluates how a portfolio behaves under normal market
-conditions and during extreme crisis periods (e.g., COVID-19 shock).
+conditions and during extreme crisis periods.
+
+> ⚠️ This project is for academic and educational purposes only
 
 ------------------------------------------------------------------------
 
-## 🎯 Project Objectives
+## Project objectives
 
 -   Construct and clean financial time series data\
 -   Compute portfolio returns\
@@ -18,41 +22,42 @@ conditions and during extreme crisis periods (e.g., COVID-19 shock).
 
 ------------------------------------------------------------------------
 
-## 📁 Project Structure
+## Data & methodology
 
-portfolio-stress-test/ │ ├── data/ \# Market & portfolio data │ ├──
-Data_and_portfolio.ipynb \# Data preparation & portfolio construction
-├── Risk_metrics.ipynb \# Volatility, VaR, CVaR, Drawdown analysis ├──
-Stress_testing.ipynb \# Historical stress scenario analysis │ ├── Votre
-profil d'investisseur \| AMF.pdf └── README.md
 
 ------------------------------------------------------------------------
 
-## 📌 Notebooks Overview
+## Technologies Used
 
-### 1️⃣ Data_and_portfolio.ipynb
-
--   Data import and preprocessing\
--   Portfolio construction\
--   Return computation
-
-### 2️⃣ Risk_metrics.ipynb
-
--   Annualized volatility\
--   Value at Risk (VaR)\
--   Conditional Value at Risk (CVaR)\
--   Maximum Drawdown\
--   Cumulative returns
-
-### 3️⃣ Stress_testing.ipynb
-
--   Historical scenario analysis\
--   Focus on COVID crisis window\
--   Portfolio cumulative return during stress periods
+- **Python**
+- **Pandas**
+- **NumPy**
+- **Matplotlib**
+- **Jupyter Notebook**
 
 ------------------------------------------------------------------------
 
-## 📈 Example: Historical Stress Window
+## Repository structure
+
+```
+portfolio-stress-test/
+├── data/
+│   ├── portfolio_returns_log.csv
+│   ├── prices.csv
+│   ├── returns_log.csv
+│   ├── risk_metrics.csv
+│   ├── weights.csv                     
+├── Data_and_portfolio.ipynb     
+├── Risk_metrics.ipynb          
+├── Historical_stress_testing.ipynb         # Historical stress scenario 
+├── Parametric_stress_testing.ipynb         # Parametric stress scenario 
+├── Correlation_stress_testing.ipynb         # Correlation stress scenario  
+└── README.md
+```
+
+------------------------------------------------------------------------
+
+## Example: Historical Stress Window
 
 ``` python
 covid_portfolio = portfolio.loc[START:END].dropna()
@@ -64,35 +69,20 @@ period.
 
 ------------------------------------------------------------------------
 
-## 🛠️ Technologies Used
+## How to run
 
--   Python\
--   Pandas\
--   NumPy\
--   Matplotlib\
--   Jupyter Notebook
 
 ------------------------------------------------------------------------
 
-## 📊 Key Concepts Covered
+## Possible Extensions
 
--   Time series analysis\
--   Portfolio return aggregation\
--   Risk decomposition\
--   Historical stress testing\
--   Tail risk measurement
+-   **Monte Carlo simulations**
+-   **Multi-factor stress scenarios**
+-   **Portfolio optimization**
 
 ------------------------------------------------------------------------
 
-## 🚀 Possible Extensions
+## Author
 
--   Monte Carlo simulations\
--   Multi-factor stress scenarios\
--   Portfolio optimization\
--   Automated risk reporting
-
-------------------------------------------------------------------------
-
-## 👤 Author
-
-Joel
+**Joël Mwemba**  
+Engineering student
