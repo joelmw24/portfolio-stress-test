@@ -57,18 +57,6 @@ portfolio-stress-test/
 
 ------------------------------------------------------------------------
 
-## Example: Historical Stress Window
-
-``` python
-covid_portfolio = portfolio.loc[START:END].dropna()
-cum_return = (1 + p_s).prod() - 1
-```
-
-This allows measurement of portfolio performance over a defined crisis
-period.
-
-------------------------------------------------------------------------
-
 ## How to run
 
 
