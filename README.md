@@ -50,8 +50,7 @@ portfolio-stress-test/
 ├── Data_and_portfolio.ipynb     
 ├── Risk_metrics.ipynb          
 ├── Historical_stress_testing.ipynb         # Historical stress scenario 
-├── Parametric_stress_testing.ipynb         # Parametric stress scenario 
-├── Correlation_stress_testing.ipynb         # Correlation stress scenario  
+├── Parametric_stress_testing.ipynb         # Parametric stress scenario   
 └── README.md
 ```
 
