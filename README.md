@@ -41,23 +41,43 @@ conditions and during extreme crisis periods.
 
 ```
 portfolio-stress-test/
+│
 ├── data/
-│   ├── portfolio_returns_log.csv
-│   ├── prices.csv
-│   ├── returns_log.csv
-│   ├── risk_metrics.csv
-│   ├── weights.csv                     
-├── Data_and_portfolio.ipynb     
-├── Risk_metrics.ipynb          
-├── Historical_stress_testing.ipynb         # Historical stress scenario 
-├── Parametric_stress_testing.ipynb         # Parametric stress scenario   
+│   ├── portfolio_returns_log.csv       # portfolio-level log returns
+│   ├── prices.csv                      # raw asset prices
+│   ├── returns_log.csv                 # asset-level log returns
+│   ├── risk_metrics.csv                
+│   └── weights.csv                     
+│
+├── 01_Data_and_portfolio.ipynb         # data collection and portfolio construction
+├── 02_Risk_metrics.ipynb               # risk indicators computation
+├── 03_Historical_stress_testing.ipynb  # historical crisis scenario analysis
+├── 04_Market_stock_stress_testing.ipynb # market shock stress scenarios
+├── 05_Metrics_comparison.ipynb         # cross-scenario metrics comparison
+│
+├── .gitignore
+├── LICENSE
 └── README.md
+
 ```
 
 ------------------------------------------------------------------------
 
 ## How to run
+1. Clone the repository:
+```bash
+git clone https://github.com/joelmw24/portfolio-stress-test.git
+cd portfolio-stress-test
+```
 
+2. Install dependencies:
+```bash
+pip install pandas numpy matplotlib jupyter
+
+3. Run the notebooks in order:
+```bash
+jupyter notebook
+```
 
 ------------------------------------------------------------------------
 
@@ -66,6 +86,7 @@ portfolio-stress-test/
 -   **Monte Carlo simulations**
 -   **Multi-factor stress scenarios**
 -   **Portfolio optimization**
+-   **Dynamic risk monitoring**
 
 ------------------------------------------------------------------------
 
