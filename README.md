@@ -22,11 +22,6 @@ conditions and during extreme crisis periods.
 
 ------------------------------------------------------------------------
 
-## Data & methodology
-
-
-------------------------------------------------------------------------
-
 ## Technologies Used
 
 - **Python**
@@ -38,7 +33,6 @@ conditions and during extreme crisis periods.
 ------------------------------------------------------------------------
 
 ## Repository structure
-
 ```
 portfolio-stress-test/
 │
@@ -48,21 +42,16 @@ portfolio-stress-test/
 │   ├── returns_log.csv                 # asset-level log returns
 │   ├── risk_metrics.csv                
 │   └── weights.csv                     
-│
 ├── 01_Data_and_portfolio.ipynb         # data collection and portfolio construction
 ├── 02_Risk_metrics.ipynb               # risk indicators computation
 ├── 03_Historical_stress_testing.ipynb  # historical crisis scenario analysis
 ├── 04_Market_stock_stress_testing.ipynb # market shock stress scenarios
 ├── 05_Metrics_comparison.ipynb         # cross-scenario metrics comparison
-│
 ├── .gitignore
 ├── LICENSE
 └── README.md
-
 ```
-
 ------------------------------------------------------------------------
-
 ## How to run
 1. Clone the repository:
 ```bash
@@ -78,7 +67,6 @@ pip install pandas numpy matplotlib jupyter
 ```bash
 jupyter notebook
 ```
-
 ------------------------------------------------------------------------
 
 ## Possible Extensions
