@@ -22,7 +22,7 @@ conditions and during extreme crisis periods.
 
 ------------------------------------------------------------------------
 
-## Technologies Used
+## Technologies used
 
 - **Python**
 - **Pandas**
